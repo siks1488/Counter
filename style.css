@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 body{
     background-color: rgb(227, 241, 253);
+    font-family:poppins;
 }
 .container{
 
@@ -20,4 +24,15 @@ body{
 .max2{
     margin-top:10px;
     margin-left:90px;
+}
+button{
+    cursor: pointer;
+    border:none;
+    border-radius:7px;
+    background-color: rgb(158, 157, 157);
+    color:rgb(0, 0, 0);
+}
+
+button:hover{
+    background-color: rgb(109, 109, 109);
 }
